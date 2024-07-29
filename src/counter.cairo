@@ -1,3 +1,4 @@
+//My first contract
 #[starknet::interface]
 pub trait ICounter<T> {
     fn get_counter(self: @T) -> u32;
